@@ -1,0 +1,183 @@
+/* CSS Document */
+
+/*Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Global */
+
+html {       
+}
+body {
+	background-color: #ffffff;
+	background-image:url(../images/Buttons/webbg.jpg);
+	
+	
+	background-position: 65% 0%;
+	background-repeat: no-repeat;
+	
+	text-align:center;
+}
+
+
+
+/*Images */
+
+
+/*biography text*/
+
+.bioheading {font-size:22px; text-align:justify; color:#036; margin:20px 0px;  font-family:Arial, Helvetica, sans-serif; }
+
+
+.biotext {font-size:14px; text-align:justify; color:#666;font-family:Arial, Helvetica, sans-serif; }
+
+
+/*Resume text*/
+
+.resumeheading {font-size:18px; text-align:left; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-weight:lighter; }
+
+.resumesubheading {font-size:16px; text-align:left; color:#036; font-family:Arial, Helvetica, sans-serif; }
+
+
+.resumeedsubheading {font-size:14px; text-align:left; color:#036; font-family:Arial, Helvetica, sans-serif; font-style:italic;}
+
+.resumetext {font-size:12px; text-align:left; color:#666; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.resumeyear {font-size:12px; text-align:right; color:#666; font-family:Arial, Helvetica, sans-serif; font-style:italic;}
+
+
+
+
+.contacttext {font-size:14px; text-align:center; color:#666; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.td {font-size:14px; text-align:right; color:#666; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.contactsubheading {font-size:16px; text-align:center; color:#000; font-family:Arial, Helvetica, sans-serif;  }
+
+.contactsubheading1 {font-size:22px; text-align:right; color:#036; font-family:Arial, Helvetica, sans-serif;  }
+
+
+
+/*Containers*/
+#outer {width:1200px; margin:0 auto;  padding:25px;
+}
+
+
+
+
+
+
+#wrapper {width:1000px; margin:0 auto; 
+}
+
+#namebanner {margin:20 auto; 
+}
+
+#leftbio {margin:50px auto 50px auto; width:500px; float:left;
+}
+
+#widebio {margin:auto auto 10px auto; width:1000px; float:left; clear:both;
+}
+
+#navbar {
+	width:1000px;
+	margin-top: 175px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+}
+#navbar ul {padding:10px auto; 
+}
+#navbar ul li {display:inline; 
+}
+#navbar ul li a {padding:0 45px; 
+}
+
+#navbar a:link {color:#000000; text-decoration:none;}
+#navbar a:visited  {color:#666; text-decoration:none;}	
+#navbar a:hover {color:#CCC; text-decoration:none;}
+
+#maincontent  {
+	width:1000px;
+	max-height:2000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+#mainlightbox {width:1000; margin:auto auto 40px auto;}
+
+#copyrightfooter {width:1000px;margin:20px auto;padding:10px O; float:left; clear:both
+}
+#copyrightfooter p {margin:20px auto;padding:10px 0;float:left; clear:both; width:1000px}
+
+#resume {margin:auto auto; width:950px; padding:10px 10px;}
+
+#workexpcontent {float:left;}
+
+#workexpyear { float:right;}
+
+#affcontent {float:left;}
+
+#affyear { float:right;}
+
+#resheading {width:950px; margin:auto;}
+
+#resheading1 {width:950px; margin:auto;}
+
+#contactfill {margin:10px auto 10px auto; width:1000px; clear:both;  float:left;}
+
+#contactform {margin:50px auto;width:500px;float:right; 
+}
+
+#contact  {width:1000px;margin:20px auto;padding10px 0; float:left; clear:both}
+
+
+
+
+/*Misc*/
+
+.cwtext {font-size:12px; color:#000000;}
