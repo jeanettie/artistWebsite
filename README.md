@@ -1,1 +1,1 @@
-My Code for my Artist Website, and possible store. 
+My Code for my Artist Website, and possible online store. 
