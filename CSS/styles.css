@@ -55,7 +55,7 @@ body {
 	background-color: #ffffff;
 	background-image:url(../images/Buttons/webbg.jpg);
 	
-	
+	background-size: contain;
 	background-position: 65% 0%;
 	background-repeat: no-repeat;
 	
@@ -98,15 +98,40 @@ body {
 .contactsubheading {font-size:16px; text-align:center; color:#000; font-family:Arial, Helvetica, sans-serif;  }
 
 .contactsubheading1 {font-size:22px; text-align:right; color:#036; font-family:Arial, Helvetica, sans-serif;  }
+ 
+
+ /* for mobile */
+/* Nav bar list items */
+#navbar a:link {color:#000000; text-decoration:none;}
+#navbar a:visited  {color:#666; text-decoration:none;}	
+#navbar a:hover {color:#CCC; text-decoration:none;}
 
 
+ /* containers */
 
+
+#outer {width:100%; margin:0 auto; padding:2%;}
+
+#wrapper {width:95%; margin:0 auto;}
+
+#namebanner {margin:2% auto;}
+
+#navbar {margin:20% auto 5% auto;}
+
+#navbar ul {padding:5% auto;}
+
+#navabar ul li {display:list-item;}
+
+#navbar ul li a {padding:0 8%}
 
 
 
 
 /*for desktop */
 @media only screen and (min-width: 768px) {
+
+
+
 /*Containers*/
 #outer {width:1200px; margin:0 auto;  padding:25px;
 }
@@ -142,9 +167,7 @@ body {
 #navbar ul li a {padding:0 45px; 
 }
 
-#navbar a:link {color:#000000; text-decoration:none;}
-#navbar a:visited  {color:#666; text-decoration:none;}	
-#navbar a:hover {color:#CCC; text-decoration:none;}
+
 
 #maincontent  {
 	width:1000px;
