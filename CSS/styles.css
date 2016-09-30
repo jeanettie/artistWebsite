@@ -188,7 +188,10 @@ img {max-width: 100%;}
 
 #mainlightbox {width:1000; margin:auto auto 40px auto;}
 
-#copyrightfooter {width:83%;margin:20px auto;padding:10px O; float:left; clear:both
+
+#contact  {width:1000px;margin:20px auto; padding:10px 0; float:left; clear:both}
+
+#copyrightfooter {width:83%;margin:20px auto;padding:10px 0; float:left; clear:both
 }
 #copyrightfooter p {margin:20px auto;padding:10px 0;float:left; clear:both; width:83%;}
 
@@ -213,8 +216,7 @@ img {max-width: 100%;}
 
 #contactform {margin:50px auto;width:500px;float:right; 
 }
-
-#contact  {width:1000px;margin:20px auto;padding10px 0; float:left; clear:both}*/
+*/
 
 
 
