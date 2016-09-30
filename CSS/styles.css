@@ -54,8 +54,6 @@ html {
 body {
 	background-color: #ffffff;
 	background-image:url(../images/Buttons/webbg.jpg);
-	
-	
 	background-position: 65% 0%;
 	background-repeat: no-repeat;
 	
@@ -65,6 +63,8 @@ body {
 
 
 /*Images */
+
+img {max-width: 100%;}
 
 
 /*biography text*/
@@ -104,6 +104,7 @@ body {
 
 @media only screen and (max-width: 600px){
 	body{ background-size: contain; }
+	
 }
 
 
@@ -131,6 +132,15 @@ body {
 
 #navbar ul li a {padding:0 8%}
 
+#maincontent  {
+	width:100%;
+	
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+
 
 
 
@@ -139,7 +149,7 @@ body {
 
 
 /*Containers*/
-#outer {width:1200px; margin:0 auto;  padding:25px;
+#outer {width:100%; margin:0 auto;  padding:25px;
 }
 
 
@@ -147,20 +157,20 @@ body {
 
 
 
-#wrapper {width:1000px; margin:0 auto; 
+#wrapper {width:83%; margin:0 auto; 
 }
 
 #namebanner {margin:20 auto; 
 }
 
-#leftbio {margin:50px auto 50px auto; width:500px; float:left;
+#leftbio {margin:50px auto 50px auto; width:42%; float:left;
 }
 
-#widebio {margin:auto auto 10px auto; width:1000px; float:left; clear:both;
+#widebio {margin:auto auto 10px auto; width:83%; float:left; clear:both;
 }
 
 #navbar {
-	width:1000px;
+	width:83%;
 	margin-top: 175px;
 	margin-right: auto;
 	margin-bottom: 50px;
@@ -173,21 +183,17 @@ body {
 #navbar ul li a {padding:0 45px; 
 }
 
+#maincontent {max-height:2000px;}
 
 
-#maincontent  {
-	width:1000px;
-	max-height:2000px;
-	margin-top: 0px;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-}
 #mainlightbox {width:1000; margin:auto auto 40px auto;}
 
-#copyrightfooter {width:1000px;margin:20px auto;padding:10px O; float:left; clear:both
+#copyrightfooter {width:83%;margin:20px auto;padding:10px O; float:left; clear:both
 }
-#copyrightfooter p {margin:20px auto;padding:10px 0;float:left; clear:both; width:1000px}
+#copyrightfooter p {margin:20px auto;padding:10px 0;float:left; clear:both; width:83%;}
+
+/* old container setting for pages I've removed from the site
+
 
 #resume {margin:auto auto; width:950px; padding:10px 10px;}
 
@@ -208,7 +214,7 @@ body {
 #contactform {margin:50px auto;width:500px;float:right; 
 }
 
-#contact  {width:1000px;margin:20px auto;padding10px 0; float:left; clear:both}
+#contact  {width:1000px;margin:20px auto;padding10px 0; float:left; clear:both}*/
 
 
 
