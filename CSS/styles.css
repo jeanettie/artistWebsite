@@ -120,7 +120,7 @@ img {max-width: 100%;}
 
 #outer {width:100%; margin:0 auto; padding:2%;}
 
-#wrapper {width:95%; margin:0 auto;}
+#wrapper {width:100%; margin:0 auto;}
 
 #namebanner {margin:2% auto;}
 
@@ -128,9 +128,11 @@ img {max-width: 100%;}
 
 #navbar ul {padding:5% auto;}
 
-#navabar ul li {display:list-item;}
+#navabar ul li {
+	display:list-item;
+	}
 
-#navbar ul li a {padding:0 8%}
+#navbar ul li a {padding:0 4%;}
 
 #maincontent  {
 	width:100%;
@@ -157,7 +159,7 @@ img {max-width: 100%;}
 
 
 
-#wrapper {width:83%; margin:0 auto; 
+#wrapper {width:100%; margin:0 auto; 
 }
 
 #namebanner {margin:20 auto; 
@@ -170,7 +172,7 @@ img {max-width: 100%;}
 }
 
 #navbar {
-	width:83%;
+	width:100%;
 	margin-top: 175px;
 	margin-right: auto;
 	margin-bottom: 50px;
@@ -180,7 +182,7 @@ img {max-width: 100%;}
 }
 #navbar ul li {display:inline; 
 }
-#navbar ul li a {padding:0 45px; 
+#navbar ul li a {padding:0 8%; 
 }
 
 #maincontent {max-height:2000px;}
@@ -189,7 +191,7 @@ img {max-width: 100%;}
 #mainlightbox {width:1000; margin:auto auto 40px auto;}
 
 
-#contact  {width:83%;margin:20px auto; padding:10px 0; float:left; clear:both}
+#contact  {width:100%;margin:20px auto; padding:10px 0; float:left; clear:both}
 
 #copyrightfooter {width:83%;margin:20px auto;padding:10px 0; float:left; clear:both
 }
